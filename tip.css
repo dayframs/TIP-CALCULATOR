@@ -16,6 +16,9 @@
     border-radius: 5px;
     overflow-x: hidden;
 }
+h1 {
+    font-size: 24px;
+}
 #calc {
     display: flex;
     flex-direction: column;
@@ -28,10 +31,7 @@
 #calc #enter {
     margin: auto;
     text-transform: uppercase;
-    background-color: rgb(135, 86, 95);
     color: white;
-    padding: 2px 10px;
-    border-radius: 5px;
 }
  #calc input,
  #calc button {
@@ -71,6 +71,7 @@
     display: flex;
     gap: 3px;
     justify-content: space-between;
+    align-items: center;
 }
 #logo {
 text-align: right;

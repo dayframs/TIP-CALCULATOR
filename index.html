@@ -13,31 +13,30 @@
             <p id="enter">Enter Bill Info Below</p>
             <div>
                 <label for="Bill">Bill Amount ($)</label>
-        <input type="number" name="Bill">
+        <input id="bill" type="number" name="Bill" required>
             </div>
             <div>
                 <label for="percent">Tip Percentage (%)</label>
-        <input type="number"> 
+        <input id="percent" type="number" required> 
             </div>
             <div>
                 <label for="split">No. of People</label>
-                <button class="btn">-</button>
-                <input type="number">
-                <button class="btn">+</button>
+                <input id="split" type="number" required>
             </div>
-            <button id="btn2">CALCULATE TIP</button>
+            <button id="btn2" onclick="calculate()">CALCULATE TIP</button>
             <div>
                 <label for="tip">Tip Amount ($)</label>
-                <input type="number" disabled>
+                <input id="tipAmount" type="number" disabled>
             </div>
             <div>
                 <label for="tip">Tip per Person ($)</label>
-                <input type="number" disabled>
+                <input id="tipPerPerson" type="number" disabled>
             </div>
             <div>
                 <label for="tip">Total Amount ($)</label>
-                <input type="number" disabled>
+                <input id="totalAmount" type="number" disabled>
             </div>
+            <button id="btn3" onclick="reset()">RESET TIP</button>
     
         <p id="logo">dayframs&#169;</p>
         

@@ -6,7 +6,7 @@
 }
 .container {
     width: 370px;
-    height: 560px;
+    height: 550px;
     background-color: pink;
     margin: 20px auto;
     display: flex;
@@ -22,14 +22,14 @@
     padding: 20px 20px 5px 20px;
     font-size: 16px;
     font-weight: 600;
-    gap: 20px;
+    gap: 13px;
 }
 #calc #enter {
     margin: auto;
     text-transform: uppercase;
     background-color: rgb(135, 86, 95);
     color: white;
-    padding: 5px 10px;
+    padding: 2px 10px;
     border-radius: 5px;
 }
  #calc input,
@@ -40,13 +40,15 @@
     text-align: center;
     font-size: 18px;
 }
-#calc .btn {
-    width: 30px;
+#calc #btn3 {
     cursor: pointer;
-    transition: all 0.15s;
+    transition: all 0.25s;
+    width: 230px;
+    margin: auto;
+    margin-top: 30px;
 }
-#calc .btn:active {
-    transform: scaleX(1.2);
+#calc #btn3:active {
+    transform: scaleX(0.6);
     background-color: grey;
 }
 #calc #btn2 {
@@ -60,6 +62,7 @@
 #calc #btn2:active {
     transform: scale(1.1);
 }
+#calc #btn3:hover,
 #calc #btn2:hover {
     background-color: rgb(159, 156, 156);
 }
@@ -70,7 +73,7 @@
 }
 #logo {
 text-align: right;
-margin-top: 20px;
+margin-top: 3px;
 font-size: 20px;
 font-style: italic;
 color: white;

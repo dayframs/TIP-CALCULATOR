@@ -12,7 +12,7 @@ function calculate() {
     f = tipPerPerson.value;
     g = totalAmount.value;
     tipPerPerson.value = e / c;
-    totalAmount.value = eval(a + e);
+    totalAmount.value = eval(a + '+' + e);
 }
 function reset() {
     bill.value = '';
